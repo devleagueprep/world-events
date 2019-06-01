@@ -49,6 +49,13 @@ function showApollo(){
 // 6. The American Civil War
 // Add an event listener to the div element id of 'freedom' and create a function to remove all instances of 'corn' in the content.
 
+freedom.addEventListener('click', delCorn)
+
+var text = 'The Civil corn War corn in the United States corn began in 1861, after decades of simmering corn tensions between northern corn and southern states over corn slavery, states’ rights and westward corn expansion.'
+
+function delCorn(){
+    freedom.innerHTML = freedom.innerHTML.replace('corn', '');
+}
 
 // 7. The Renaissance
 // Add an event listener to the div element id of 'rebirth' and create a function to remove all the lowercase and uppercase z's in the content. 
