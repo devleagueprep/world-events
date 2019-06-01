@@ -60,7 +60,11 @@ function delCorn(){
 // 7. The Renaissance
 // Add an event listener to the div element id of 'rebirth' and create a function to remove all the lowercase and uppercase z's in the content. 
 
+rebirth.addEventListener('click', delZ)
 
+function delZ(){
+    rebirth.innerHTML = 'The Renaissance is a period in European history, covering the span between the 14th and 17th centuries and marking the transition from the middle ages to modernity.'
+}
 
 // 8. the Gutenberg Printing Press
 // Add an event listener to the h3 element id of 'showBooks' and create a function to display a random book title from the classics array in the div element of 'mustRead'.
